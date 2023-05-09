@@ -5,16 +5,20 @@
     box-sizing: border-box;
     font-family: 'Poltawski Nowy', serif;
     text-decoration: none;
+    background: var(--bkgd);
 }
 :root{
     --main: #225228;
+    --bkgd: rgb(247, 245, 237);
 }
 .navi{
     padding: 15px;
-    height: 7vh;
+    height: 10vh;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     gap: 1rem;
+    background-color: var(--bkgd);
 }
 .logo{
     color: var(--main);
@@ -30,19 +34,30 @@
     color: var(--main);
     font-size: 1.3rem;
 }
-.body{
-    color: aqua;
-    background-color: aqua;
-}
 .home{
     background-image: url(images/forest.jpg);
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 0;
-    height: 93vh;
+    height: 90vh;
+}
+.home-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    background-color: var(--bkgd);
+    padding: 10px;
+    border: #383838;
+    border-radius: 20% 2% 20% 2%;
+}
+.home-card h1{
+    text-align: center;
 }
 .home-card img{
     height: 70vh;
+    background: transparent;
 }
 .about{
     margin: 15px;
@@ -55,7 +70,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 0rem;
+    gap: 3rem;
 }
 .left-card{
 
