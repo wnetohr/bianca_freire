@@ -54,16 +54,19 @@
 }
 .home-card h1{
     text-align: center;
+    color: var(--main);
 }
 .home-card img{
     height: 70vh;
     background: transparent;
 }
 .about{
+    position: relative;
+    height: 70vh;
     margin: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     gap: 3rem;
 }
 .card{
@@ -87,5 +90,12 @@
     color: #225228;
 }
 .left-border{
-    left: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.right-border{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
