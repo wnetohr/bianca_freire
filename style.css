@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;700&family=Raleway:wght@200;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poltawski Nowy', serif;
+    text-decoration: none;
+}
+:root{
+    --main: #225228;
+}
+.navi{
+    padding: 15px;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.logo{
+    color: var(--main);
+}
+.menu-navi{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    list-style: none;
+}
+.menu-navi li a{
+    color: var(--main);
+    font-size: 1.3rem;
+}
+.body{
+    color: aqua;
+    background-color: aqua;
+}
+.home{
+    background-image: url(images/forest.jpg);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 93vh;
+}
+.home-card img{
+    height: 70vh;
+}
+.about{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0rem;
+}
+.left-card{
+
+}
+.right-card{
+    width: 30vw;
+    font-size: 1.2rem;
+    background-color: white;
+}
+.right-card p{
+    color: #383838;
+}
+.right-card h2{
+    color: #225228;
+}
+.left-border{
+    left: 70%;
+}
