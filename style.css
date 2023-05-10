@@ -63,7 +63,6 @@
     background: transparent;
 }
 .about{
-    position: relative;
     height: 70vh;
     margin: 15px;
     display: flex;
@@ -92,12 +91,10 @@
     color: #225228;
 }
 .left-border{
-    position: absolute;
     top: 0;
     left: 0;
 }
 .right-border{
-    position: absolute;
     bottom: 0;
     right: 0;
 }
@@ -110,10 +107,11 @@
 }
 .contact h2{
     color: var(--main);
-    text-align: center;
+    font-size: 2rem;
 }
 
 .left-contact-page{
+    width: 60vw;
     display: flex;
     flex-direction: column;
     gap: 3rem;
