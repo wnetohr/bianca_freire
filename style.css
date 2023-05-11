@@ -211,7 +211,10 @@
     .about{
         margin-top: 150px;
         margin-bottom: 150px;
-    }    
+    }  
+    .about-text{
+        height: auto;
+    }  
     .card{
         width: 100vw;
         margin: 0;
@@ -240,5 +243,8 @@
     }
     .right-contact-page{
         width: 100vw;
+    }
+    .contact-text{
+        height: auto;
     }
 }
