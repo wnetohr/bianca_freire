@@ -72,14 +72,19 @@
     background: transparent;
 }
 .about{
-    height: 70vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 3rem;
+    align-items: center;
+    gap: 12rem;
+}
+.about-text{
+    font-size: 1.1rem;
 }
 .card{
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -101,12 +106,9 @@
     color: #225228;
 }
 .left-border{
-    top: 0;
-    left: 0;
 }
 .right-border{
-    bottom: 0;
-    right: 0;
+    
 }
 .contact{
     margin: 100px;
@@ -119,6 +121,9 @@
 .contact h2{
     color: var(--main);
     font-size: 2rem;
+}
+.contact-text{
+    font-size: 1.1rem;
 }
 
 .left-contact-page{
