@@ -44,7 +44,7 @@
 }
 .home{
     border-top: rgb(117, 17, 17) 34px;
-    background-image: url(images/forest.jpg);
+    background-image: url(images/forest2.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,6 +193,9 @@
     }
     .menu-navi{
         display: none;
+    }
+    .home{
+        background-image: url(images/forest-mobile.jpg);
     }
     .home-card{
         flex-direction: column;
