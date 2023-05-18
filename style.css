@@ -196,6 +196,7 @@
     }
     .home{
         background-image: url(images/forest-mobile.jpg);
+        background-size: cover;
     }
     .home-card{
         flex-direction: column;
